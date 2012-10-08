@@ -1,0 +1,26 @@
+/*  Name:		Pit Apps
+ */
+
+Table of Contents:
+
+	FindPath.c	-	Main class file which handles file in/output
+				and performs BFS on the input files. It relies on the
+				List and Graph ADT.
+				It takes two arguments which are paths to two files:
+				 - An input file which begins with the number of
+				   vertices in the graph. It then has a list of 
+				   edges, a dummy edge "0 0" and a list of source destination
+				   vertices BFS should find
+				 - An output file which will be created with the
+				   results of the shuffle operation.
+			
+	List.c		-	List ADT.
+	List.h		-	List header file.
+	ListTest.c	-	Tests the List ADT.
+	Graph.c		-	Graph ADT.
+	Graph.h		- 	Graph header file.
+	GraphTest.c	-	Tests the Graph ADT.
+	MakeFile	-	Creates an executable FindPath and enables the user to
+				run it using:
+					./FindPath infile outfile
+	README		-	This file.
