@@ -1,0 +1,6 @@
+*.o
+FindPath
+input
+output
+*.py
+*.pyc
